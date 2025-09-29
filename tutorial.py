@@ -1,11 +1,13 @@
 import requests
 import aas_http_client as aasClient
-from aimc_parser import AimcParser
+from aas_standard_parser import AIMCParser
 import json
 import time
 
 AAS_SERVER_URL = "https://techdays-alm.em.ag/"
 ASSET_CONNECTOR_URL = "https://techdays-resource-alm.em.ag/"
+
+TUTORIAL_AAS_ID = "https://fluid40.de/ids/shell/8547_5433_6140_7422"
 AIMC_SEMANTIC_ID = "/idta/AssetInterfacesMappingConfiguration"
 
 def tutorial_final():
