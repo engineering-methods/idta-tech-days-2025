@@ -14,33 +14,31 @@ def tutorial_final():
 
     # create AAS client and connect to server
     
-    
     # get all AAS from server
 
-    
     # get the AAS used in the tutorial
-    
     
     # search for the AssetInterfacesMappingConfiguration Submodel by the semantic ID
 
-
     # parse the AIMC Submodel to get the mapping configurations
-
 
     # get all AID Submodels defined in the AIMC configuration
 
-    
     # create session to Asset Connector
 
-    
     # add the aid submodels (in json format) to the Asset Connector configurations
 
-    
+    print(2)
+
     counter = 1
     while (counter <= 1000):
-        # iterate over all mapping configurations and get the values for the source references from the Asset Connector
-        
-        
+
+                # response_content: dict = json.loads(response.content)
+                # response_payload = response_content.get("Payload", None)
+                # print("---")
+                # print(f"{source_ref.property_name}: {json.dumps(response_payload, indent=4)}")
+                # print("---")
+
         time.sleep(2)
         counter += 1
     
